@@ -1,0 +1,50 @@
+<!--                signup             -->
+
+
+<html>
+
+<head>
+    <title>Log In</title>
+    <link rel="icon" href="img/360_F_247970339_jbtcwIwpOsx42GB90mF4r6ZAwiOWmalL.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <span class="d-none" id="username"></span>
+
+    <div class="container  d-flex justify-content-center align-content-center my-5 text-center">
+        <div class="group rounded border-2 m-auto my-5 w-50 p-5">
+            <h1>Smart Login System</h1>
+
+            <input   id="signupName" class=" p-3 form-control my-3" placeholder="Enter your name" type="text">
+            <div id="nameFunction" class="alert alert-danger d-none"> Please Enter a Valid Name,Must contain at first uppercase letter and lowercase, and at least 8 or more characters </div>
+
+            <input id="signupEmail" class=" p-3 form-control my-3" placeholder="Enter your email" type="email">
+            <div id="emailFunction" class="alert alert-danger d-none"> Please Enter A Valid Email</div>
+
+            <input  id="signupPassword" class=" p-3 form-control my-3" placeholder="Enter  password" type="password">
+            <div id="passFunction" class="alert alert-danger d-none">Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters</div>
+
+            <p id="massegeInputReq" class="text-danger d-none"> All inputs is required </p>
+            <p id="alreadyExist" class="text-danger d-none">Email Already Exist </p>
+            <p id="Success" class="text-success d-none"> Added Successfuly </p>
+
+
+            <button id="singUpBtn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" target="_self" href="index.html">Signin</a></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>

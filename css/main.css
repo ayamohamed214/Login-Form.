@@ -1,0 +1,21 @@
+body{
+    background-image: url('../img/02-34-11-741_512.gif');
+    font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+.group{
+
+position: relative;
+/* background-color: rgb(55, 56, 57); */
+border:2px solid rgb(208, 214, 216);
+/* backdrop-filter: blur(--bs-body-bg); */
+border-radius: 10%
+};
+
